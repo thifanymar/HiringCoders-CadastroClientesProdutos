@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one{
+    background-image: url(../assets/jelly2.jpg);    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 450px;
+    margin: 80px;
+}
+
+.card-container-prod{
+    
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+
+
+
+.trynow{
+    
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    font-size: x-large;
+
+
+
+}
+
+
+
+.flexdiv{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgb(117, 13, 13);
+    color: #fff;
+    
+}
+
+input.input-salvar{
+    width: 40%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgb(117, 13, 13);
+    color: #fff;
+    
+}
+
+
+input.input-campos{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 0px;
+    background:rgb(179, 170, 167);
+    border: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+
+}
+
+input.input-diferenciado{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: large;
+    text-align: right;
+    border: seashell;
+    border-radius: 0px;
+    background: #FFF;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+
+
+
